@@ -1,0 +1,41 @@
+{
+  "name": "vue-manage-system",
+  "version": "4.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-sit": "cross-env NODE_ENV=sit vue-cli-service build",
+    "build-uat": "cross-env NODE_ENV=uat vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.9.2",
+    "js-md5": "^0.7.3",
+    "mavon-editor": "^2.6.17",
+    "v-contextmenu": "^2.8.0",
+    "v-viewer": "^1.4.2",
+    "vue": "^2.6.10",
+    "vue-cropperjs": "^3.0.0",
+    "vue-i18n": "^8.10.0",
+    "vue-pdf": "^4.0.7",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vue-schart": "^1.0.0",
+    "vuedraggable": "^2.17.0",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  }
+}
